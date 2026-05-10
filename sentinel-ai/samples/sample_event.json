@@ -1,0 +1,25 @@
+{
+  "version": "0",
+  "id": "example-id",
+  "detail-type": "Access Analyzer Finding",
+  "source": "aws.access-analyzer",
+  "account": "123456789012",
+  "time": "2026-05-10T12:00:00Z",
+  "region": "us-east-1",
+  "detail": {
+    "type": "UnusedAccess",
+    "resource": {
+      "policy": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Action": "*",
+            "Resource": "*"
+          }
+        ]
+      }
+    },
+    "findingId": "finding-123"
+  }
+}
